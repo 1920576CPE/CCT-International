@@ -33,9 +33,9 @@
            
         </div>
     </header>
-    <section class="banner bg-banner bg-cover bg-no-repeat lg:w-[100%]   py-[6rem]">
+    <section class="banner bg-banner bg-cover bg-no-repeat lg:w-[100%] relative before:content-[''] before:bg-gradient-to-r from-white  to-transparent before:h-full before:w-[70%] before:block before:absolute before:top-0 py-[6rem]">
         <div class="container">
-            <div>
+            <div class="relative z-10">
                 <div class="inline-block mt-[10rem] mb-[4rem]">
                     <h3 class="text-[18px] text-gray font-bold">Craniocervical-Craniosacral-TMJ</h3>
                     <h1 class="text-[80px] font-semibold leading-[65px]">CCCS-TMJ</h1>
@@ -144,49 +144,93 @@
 
    <section class="feedback bg-light py-10">
     <div class="container">
-        <div class="wrapper lg:grid lg:grid-cols-[_1fr,_2fr] gap-[2rem]">
+        <div class="wrapper flex gap-[2rem] items-center">
             <div class="mt-[3rem]">
-                <h1> What our customers are saying</h1>
-            </div>      
-            <div class="my-slider">
-                <div>
-                    <div class="flex p-[2rem] bg-white">
-                        <div>
-                            <p class="mb-6">
-                                I recently attended the craniosacral seminar and was impressed by the level of knowledge and expertise of the instructors. The hands-on training provided valuable real-world applications that I was able to immediately apply in my practice. I highly recommend this seminar to anyone looking to further their education in this field.
-                            </p>
-                            <h2>Sally Cruz</h2>
-                            <h4>Student</h4>
-                        </div>
-                        <div>
-                            <img class="max-w-[190px] h-auto"  src="./img/Slider1.png" alt="">
+                <h1 class="text-[24px] font-bold w-[60%]"> What our customers are saying</h1>
+            </div> 
+            <div class="w-[70%] ml-auto relative">
+                <div class="my-slider">
+                    <div>
+                        <div class="flex gap-5 p-[2rem] bg-white">
+                            <div>
+                                <p class="mb-6">
+                                    I recently attended the craniosacral seminar and was impressed by the level of knowledge and expertise of the instructors. The hands-on training provided valuable real-world applications that I was able to immediately apply in my practice. I highly recommend this seminar to anyone looking to further their education in this field.
+                                </p>
+                                <h2 class="text-[18px] text-primary font-semibold">Sally Cruz</h2>
+                                <h4 class="text=[12px] italic">Student</h4>
+                            </div>
+                            <div>
+                                <img class="max-w-[190px] h-auto"  src="./img/Slider1.png" alt="">
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div>
-                    <div class="flex p-[2rem] bg-white">
-                        <div>
-                            <p class="mb-6">
-                                I recently attended the craniosacral seminar and was impressed by the level of knowledge and expertise of the instructors. The hands-on training provided valuable real-world applications that I was able to immediately apply in my practice. I highly recommend this seminar to anyone looking to further their education in this field.
-                            </p>
-                            <h2>Sally Cruz</h2>
-                            <h4>Student</h4>
-                        </div>
-                        <div>
-                            <img class="max-w-[190px] h-auto"  src="./img/Slider1.png" alt="">
+                    <div>
+                        <div class="flex p-[2rem] bg-white">
+                            <div>
+                                <p class="mb-6">
+                                    I recently attended the craniosacral seminar and was impressed by the level of knowledge and expertise of the instructors. The hands-on training provided valuable real-world applications that I was able to immediately apply in my practice. I highly recommend this seminar to anyone looking to further their education in this field.
+                                </p>
+                                <h2>Sally Cruz</h2>
+                                <h4>Student</h4>
+                            </div>
+                            <div>
+                                <img class="max-w-[190px] h-auto"  src="./img/Slider1.png" alt="">
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>   
-          
-                    
-                
-                 
+                </div>  
+            </div>     
         </div>
     </div>
-
    </section>
+
+   <section class="services py-[6rem]">
+        <div class="container">
+                <div class="services__wrapper flex gap-9">
+                    <div>
+                        <h2 class="text-[24px] text-dark font-bold mb-[3rem]">Services that we offer.</h2>
+                        <p class="text-[16px] text-dark text-justify w-[70%] mb-[3rem]">
+                            Explore the fascinating world of craniocervical and craniosacral therapy at our upcoming seminar. Learn from experienced instructors and gain hands-on training in diagnosing and treating disorders related to the craniocervical junction and craniosacral system
+                        </p>
+
+                        <ul>
+                            <li class="text-[32px] text-primary font-semibold flex items-center mb-6"><i class="fa-solid fa-phone fa-sm mr-7 text-black"></i>0967 476 6598</li>
+                            <li class="text-[16px] text-primary font-semibold flex items-center mb-6"><i class="fa-brands fa-telegram fa-2xl mr-7 text-black"></i>cccstmjinternational@gmail.com</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/XFPGDeHHjZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+        </div>
+   </section>
+
+   <footer class="py-[4rem] px-[4rem] bg-light">
+    <div class="container">
+        <div class="inline-block mb-[4rem]">
+            <h3 class="text-[9px] leading-[13.5px] text-gray font-bold">Craniocervical-Craniosacral-TMJ</h3>
+            <h1 class="text-[35px] font-semibold leading-[35px]">CCCS-TMJ</h1>
+            <h2 class="text-[10px] leading-[15px] text-right">INTERNATIONAL</h2>
+        </div>
+        <div class="flex justify-between">
+            <div>
+                <p class="test-[12px] leading-[24px] w-[60%]">
+                    where our passion for craniocervical and craniosacral therapy drives our commitment to providing high-quality education and training. With years of experience and expertise in the field, our team of instructors is dedicated to helping healthcare professionals improve their skills and expand their knowledge.
+                </p>
+            </div>
+            <div>
+                <h4 class="text-[16px] mb-[1.5rem]">Follow us:</h4>
+                <ul class="flex gap-[1rem]">
+                    <li><i class="fa-brands fa-facebook fa-xl"></i></li>
+                    <li><i class="fa-brands fa-youtube fa-xl"></i></li>
+                    <li><i class="fa-brands fa-instagram fa-xl"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+   </footer>
     
     
     
@@ -202,8 +246,8 @@
           container: '.my-slider',
           items: 1,
           slideBy: 'page',
-          autoplay: true,
-          controlsText: ['<i class="fa-solid fa-chevron-left"></i>', '<i class="fa-solid fa-chevron-right"></i>'],
+          autoplay: false,
+          controlsText: ['<i class="fa-solid fa-arrow-left"></i>', '<i class="fa-solid fa-arrow-right"></i>'],
         });
     </script>
 

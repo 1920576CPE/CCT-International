@@ -24,13 +24,19 @@
 
 
 .tns-controls button:first-child{
-    @apply hidden md:block absolute top-[50%] z-10 left-[5%] bg-white rounded-full w-10 h-10 text-primary 
+    @apply hidden md:block absolute top-[50%] z-10 left-[-8%] bg-black rounded-full w-10 h-10 text-white
 }
 
 .tns-controls button:last-child{
-    @apply hidden md:block absolute top-[50%] z-10 right-[5%] bg-white rounded-full w-10 h-10 text-primary
+    @apply hidden md:block absolute top-[50%] z-10 right-[-8%] bg-black rounded-full w-10 h-10 text-white
 }
 
 .tns-ovh {
     @apply overflow-hidden
+}
+
+.Courses .wrapper .date span{
+    height: 0.2rem;
+    width: 1rem; 
+    @apply bg-gray block mb-[0.5rem] mt-[0.5rem]
 }
