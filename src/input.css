@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    body {
+        @apply font-poppins
+    }
+  
+}
+
+@layer components {
+    .requirementsItem{
+        @apply bg-white md:bg-transparent p-5 rounded-md min-h-[250px]
+    }
+}
+
+
+
+
+
+
+
+.tns-controls button:first-child{
+    @apply hidden md:block absolute top-[50%] z-10 left-[5%] bg-white rounded-full w-10 h-10 text-primary 
+}
+
+.tns-controls button:last-child{
+    @apply hidden md:block absolute top-[50%] z-10 right-[5%] bg-white rounded-full w-10 h-10 text-primary
+}
+
+.tns-ovh {
+    @apply overflow-hidden
+}
