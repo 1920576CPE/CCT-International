@@ -51,7 +51,7 @@
     <section class="cards py-[4rem] bg-light">
         <div class="container">
             <div class="ClientCardWrapper block md:grid grid-cols-3 gap-[2rem]">
-                <div class="clientCard bg-white rounded-lg p-[2rem] mb-[2rem] shadow-lg">
+                <div class="clientCard bg-white rounded-lg p-[2rem] mb-[2rem] shadow-lg hover:shadow-2xl hover:scale-[1.1]">
                    <h2 class="mb-10 text-[18px] font-bold">Latest News & Updates</h2>
                    <div class="flex gap-[2rem] items-center py-[1rem]">
                         <img src="./img/Doctors 1.png" alt="">
@@ -71,7 +71,7 @@
                    
                 </div>
 
-                <div class="clientCard bg-white rounded-lg p-[2rem] mb-[2rem] shadow-lg">
+                <div class="clientCard bg-white rounded-lg p-[2rem] mb-[2rem] shadow-lg hover:shadow-2xl hover:scale-[1.1]">
                     <h2 class="mb-10 text-[18px] font-bold">Upcoming Events</h2>
                     <div class="flex gap-[2rem] items-center py-[1rem]">
                          <img src="./img/Event1.png" alt="">
@@ -99,7 +99,7 @@
                 
                 </div>
 
-                <div class="clientCard bg-secondary rounded-lg p-[2rem] mb-[2rem] shadow-lg">
+                <div class="clientCard bg-secondary rounded-lg p-[2rem] mb-[2rem] shadow-lg hover:shadow-2xl hover:scale-[1.1]">
                     <h2 class="mb-10 text-[18px] font-bold text-center text-white">Enroll to a Course Now!</h2>
                     <div>
                         <p class="text-justify text-white">
@@ -108,7 +108,7 @@
                     </div>
                    
                      <div class=" text-primary font-semibold flex justify-center gap-4 items-center mt-[3rem]">
-                         <a class="bg-light py-[10px] px-[20px] font-poppins rounded-full text-black" href="#">Enroll Now!</a>
+                         <a class="bg-light py-[10px] px-[20px] font-poppins rounded-full text-black hover:bg-black hover:text-white" href="#">Enroll Now!</a>
                         
                      </div>
                 
@@ -119,17 +119,24 @@
         </div>
     </section>
 
-   <section class="team">
+   <section class="team py-[5rem]">
     <div class="container">
-        <div class="relative w-auto h-[900px]">
-            <h2 class="text-center text-[24px] absolute top-[10%] left-[47%] font-bold">Meet Our Team</h2>
-            <div class=" doc1 absolute bottom-[5%] left-[41%] grayscale hover:grayscale-0  ">
+
+        <h2 class="text-center text-[24px] font-bold mt-[4rem]">Meet Our Team</h2>
+        <div class=" theFigure  w-auto h-[900px] relative">
+            <div class=" group absolute bottom-[5%] left-[41%] grayscale hover:grayscale-0 ">
+                <p class="text-center hidden group-hover:block text-secondary font-semibold">Dr.Jeffrey M. Sumague</p>
+                <p class="text-center hidden group-hover:block ">Lorem ipsum dolor sit amet.</p>
                 <img src="/dist/img/Mask group (1).png" alt="">
             </div>
-            <div class="doc2 absolute left-[22%] bottom-[3.5%] grayscale hover:grayscale-0 ">
+            <div class="group absolute left-[22%] bottom-[3.5%] grayscale hover:grayscale-0 ">
+                <p class="text-center hidden group-hover:block text-secondary font-semibold">Dr.Lolita Flores-Fandalian</p>
+                <p class="text-center hidden group-hover:block ">Lorem ipsum dolor sit amet.</p>
                 <img src="/dist/img/Mask group (2).png" alt="">
             </div>
-            <div class="doc3 absolute right-[18%] bottom-[3%] grayscale hover:grayscale-0 ">
+            <div class="group absolute right-[18%] bottom-[3%] grayscale hover:grayscale-0 ">
+                <p class="text-center hidden group-hover:block text-secondary font-semibold">Dr.Cez Muer-Samiano</p>
+                <p class="text-center hidden group-hover:block ">Lorem ipsum dolor sit amet.</p>
                 <img src="/dist/img/Mask group.png" alt="">
             </div>
             <div class="py-7 p-5 block md:flex items-center justify-between bg-secondary absolute bottom-[-1%] left-[4%]">
@@ -144,7 +151,7 @@
 
    <section class="feedback bg-light py-10">
     <div class="container">
-        <div class="wrapper flex gap-[2rem] items-center">
+        <div class="wrapper lg:flex gap-[2rem] items-center">
             <div class="mt-[3rem]">
                 <h1 class="text-[24px] font-bold w-[60%]"> What our customers are saying</h1>
             </div> 
@@ -171,11 +178,26 @@
                                 <p class="mb-6">
                                     I recently attended the craniosacral seminar and was impressed by the level of knowledge and expertise of the instructors. The hands-on training provided valuable real-world applications that I was able to immediately apply in my practice. I highly recommend this seminar to anyone looking to further their education in this field.
                                 </p>
-                                <h2>Sally Cruz</h2>
-                                <h4>Student</h4>
+                                <h2 class="text-[18px] text-primary font-semibold">Juan Dela Cruz</h2>
+                                <h4 class="text=[12px] italic">Student</h4>
                             </div>
                             <div>
-                                <img class="max-w-[190px] h-auto"  src="./img/Slider1.png" alt="">
+                                <img class="max-w-[190px] h-auto"  src="./img/Slider2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex p-[2rem] bg-white">
+                            <div>
+                                <p class="mb-6">
+                                    I recently attended the craniosacral seminar and was impressed by the level of knowledge and expertise of the instructors. The hands-on training provided valuable real-world applications that I was able to immediately apply in my practice. I highly recommend this seminar to anyone looking to further their education in this field.
+                                </p>
+                                <h2 class="text-[18px] text-primary font-semibold">Juan Dela Cruz</h2>
+                                <h4 class="text=[12px] italic">Student</h4>
+                            </div>
+                            <div>
+                                <img class="max-w-[190px] h-auto"  src="./img/Slider3.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -187,7 +209,7 @@
 
    <section class="services py-[6rem]">
         <div class="container">
-                <div class="services__wrapper flex gap-9">
+                <div class="services__wrapper block lg:flex lg:gap-9">
                     <div>
                         <h2 class="text-[24px] text-dark font-bold mb-[3rem]">Services that we offer.</h2>
                         <p class="text-[16px] text-dark text-justify w-[70%] mb-[3rem]">

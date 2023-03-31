@@ -40,3 +40,21 @@
     width: 1rem; 
     @apply bg-gray block mb-[0.5rem] mt-[0.5rem]
 }
+
+.portraitItem.active{
+    @apply w-[700px] transition-all duration-500
+}
+
+.portraitItem-name .theName{
+    transform:  rotate(-90deg);
+    margin-top: 7rem;
+}
+
+.portraitItem.active .portraitItem-name .theName{
+    transform: rotate(0);
+    margin-top: 0;
+}
+
+.portraitItem.active .portraitItem-name .desc{
+    @apply block
+}
